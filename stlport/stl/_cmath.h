@@ -13,6 +13,8 @@
  *
  */
 
+#ifndef FIX_MATH
+
 #ifndef _STLP_INTERNAL_CMATH
 #define _STLP_INTERNAL_CMATH
 
@@ -603,3 +605,6 @@ using _STLP_VENDOR_CSTD::_fcvt;
 // Local Variables:
 // mode:C++
 // End:
+
+
+#endif
